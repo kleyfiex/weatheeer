@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css//style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather</h1>
+    </header>
+
+    <main>
+        <div class="weatherContainer">
+            <div class="weatherDataBox">
+                <p class="temperatureValue"></p>
+                <p class="weatherInCity"></p>
+            </div>
+            <button id="changeCityButton">Change city</button>
+        </div>
+
+        <div class="cityContainer">
+            <div class="inputToFindCityBox">
+                <input type="text" placeholder="Type your city here" id="inputToFindCity" class="inputToFindCity">
+            </div>
+            <button id="findCityButton">Find</button>
+        </div>
+
+        <div class="errorContainer">
+            <p>Ooops. Something went wrong.</p>
+            <button id="tryAgainButton">Try again</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>With 🤍 by Tem</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
